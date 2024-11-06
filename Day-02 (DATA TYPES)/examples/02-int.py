@@ -10,6 +10,6 @@ print("Integer Division:", result1)
 result2 = num1 % num2
 print("Modulus (Remainder):", result2)
 
-# Absolute Value
+# Absolute Value, print only positive value here it will print 7
 result3 = abs(-7)
 print("Absolute Value:", result3)

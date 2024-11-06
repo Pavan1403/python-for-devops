@@ -24,7 +24,6 @@ import re
 
 text = "Welcome to the python for devops course"
 pattern = r"python"
-replace = "PowerShell"
 search = re.search(pattern, text) # Perform the search
 if search: print("Python Found:", search.group()) 
 else: print("Python not Found")
@@ -33,6 +32,7 @@ match = re.match(pattern, text) # Perform the match
 if match: print("Python match:", match.group())
 else: print ("Python not match")
 
+replace = "PowerShell"
 replace = re.sub(pattern, replace, text) # Perform the replacement
 if replace: print ("Replaced:", replace)
 else: print ("Not Replcaed")
